@@ -1,0 +1,189 @@
+/* Overall */
+.RightArrow {
+  position: absolute;
+  top: 90%;
+  height: 10%;
+  left: 90%;
+}
+
+.LeftArrow {
+  position: absolute;
+  top: 90%;
+  height: 10%;
+  left: 10%;
+}
+
+.LeftArrow:hover {
+  background-color: rgba(250, 240, 204, 0.81);
+}
+
+.RightArrow:hover {
+  background-color: rgba(250, 240, 204, 0.81);
+}
+/* Slide 1 Styles */
+#adhd-brain {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+}
+
+.Discript {
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  font-size: 22px;
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  line-height: 1.5;
+}
+
+/* Slide 2 Styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#adhd-girl {
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  height: 55%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#foot1 {
+  position: absolute;
+  top: 48%;
+  left: 25%;
+  animation: fadeIn ease 6s;
+}
+
+#foot2 {
+  position: absolute;
+  top: 28%;
+  left: 35%;
+  animation: fadeIn ease 6s;
+  animation-delay: 5s;
+}
+
+#foot3 {
+  position: absolute;
+  top: 29%;
+  left: 53%;
+}
+
+#foot4 {
+  position: absolute;
+  top: 18%;
+  left: 68%;
+}
+
+#adhd-woman {
+  position: absolute;
+  top: 0%;
+  left: 79%;
+  height: 40%;
+}
+
+/* Slide 3 Styles */
+#s3title {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 55%;
+}
+
+#cloud1 {
+  position: absolute;
+  top: 20%;
+  left: 12%;
+  width: 15%;
+}
+
+#cloud2 {
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  width: 15%;
+}
+
+#cloud3 {
+  position: absolute;
+  top: 20%;
+  left: 72%;
+  width: 15%;
+}
+
+#cloud4 {
+  position: absolute;
+  top: 50%;
+  left: 26%;
+  width: 15%;
+}
+
+#cloud5 {
+  position: absolute;
+  top: 50%;
+  left: 56%;
+  width: 15%;
+}
+
+/* Slide 4 Styles */
+#s4title {
+  position: absolute;
+  top: 0%;
+  left: 7%;
+  width: 30%;
+}
+
+#type1 {
+  position: absolute;
+  top: 20%;
+  height: 20%;
+  left: 13%;
+}
+
+#type2 {
+  position: absolute;
+  top: 45%;
+  height: 20%;
+  left: 28%;
+}
+
+#type3 {
+  position: absolute;
+  top: 70%;
+  height: 20%;
+  left: 13%;
+}
+
+#cry-man {
+  position: absolute;
+  top: 0%;
+  height: 23%;
+  left: 79%;
+}
+
+#left4 {
+  position: absolute;
+  top: 50%;
+  height: 10%;
+  left: 8%;
+}

@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+/*First Page*/
+
+.row {
+  height: 400px;
+}
+
+/*Title*/
+.title-elems {
+  font-family: Roboto;
+}
+
+.big-title {
+  color: #cf6767;
+  font-size: 140px;
+  left: 5%;
+  top: 5%;
+  position: absolute;
+  z-index: 300;
+}
+
+.subtitle {
+  font-size: 30px;
+  left: 5%;
+  top: 22%;
+  position: absolute;
+}
+.imgGirl {
+  position: absolute;
+  display: block;
+  left: 57%;
+  height: auto;
+}
+
+/* Menu List */
+.list-items {
+  font-size: 20px;
+  text-align: left;
+}
+
+/* Storyline */
+
+.title-elems {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: none;
+  height: 110vh;
+}
+
+.Storyline {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: none;
+  height: 100vh;
+}
+
+.DataFacts {
+  position: absolute;
+  top: 230%;
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: none;
+  height: 100vh;
+}
+
+.Medis {
+  position: absolute;
+  top: 350%;
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: none;
+  height: 100vh;
+}
+
+.Overviews {
+  position: absolute;
+  top: 470%;
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: none;
+  height: 100vh;
+}
+
+.Groups {
+  position: absolute;
+  top: 570%;
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: none;
+  height: 100vh;
+}
+
+.CBT {
+  position: absolute;
+  top: 710%;
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: none;
+  height: 100vh;
+}

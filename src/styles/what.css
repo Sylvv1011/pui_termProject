@@ -1,0 +1,23 @@
+/* Overall */
+
+.RightArrow {
+  position: absolute;
+  top: 90%;
+  height: 10%;
+  left: 90%;
+}
+
+.LeftArrow {
+  position: absolute;
+  top: 90%;
+  height: 10%;
+  left: 10%;
+}
+
+.LeftArrow:hover {
+  background-color: rgba(250, 240, 204, 0.81);
+}
+
+.RightArrow:hover {
+  background-color: rgba(250, 240, 204, 0.81);
+}

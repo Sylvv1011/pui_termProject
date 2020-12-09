@@ -1,0 +1,190 @@
+/* Overall */
+.Medications {
+  position: absolute;
+  top: 0%;
+  height: 200px;
+  left: 0%;
+}
+
+.elip {
+  position: relative;
+  top: 0%;
+}
+
+.elip-m {
+  display: none;
+}
+.Med-discript {
+  position: absolute;
+  left: 160%;
+  top: 190%;
+  font-size: 25px;
+  display: flexbox;
+  text-align: left;
+  width: 40rem;
+}
+
+.display {
+  font-size: 25px;
+}
+
+.e-title {
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 130%;
+  left: 160%;
+  width: 145%;
+  z-index: 30;
+  text-align: left;
+}
+
+.e-list {
+  display: block;
+  position: absolute;
+  left: 160%;
+  top: 155%;
+  font-size: 23px;
+  width: 145%;
+  z-index: 30;
+  text-align: left;
+}
+
+.e-list li {
+  list-style-type: none;
+  padding-bottom: 1.5%;
+  font-weight: bold;
+  color: #892a2a;
+}
+
+.med-pic {
+  position: absolute;
+  top: 190%;
+  left: 270%;
+  width: 40%;
+  z-index: 30;
+}
+
+#wb {
+  position: absolute;
+  top: 212%;
+  left: 270%;
+  width: 40%;
+  z-index: 30;
+}
+/* Menu */
+.four {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 100%;
+  font-size: 38px;
+  width: 300px;
+  text-align: left;
+  z-index: 300;
+}
+
+.menu-items {
+  list-style-type: none;
+  padding-bottom: 15%;
+  font-weight: bold;
+  color: #d1b5b5;
+}
+
+h4:hover {
+  color: white;
+}
+
+.m-title {
+  position: absolute;
+  top: 5%;
+  left: 1000px;
+}
+
+.Dopamine {
+  position: absolute;
+  left: 170%;
+  top: 60%;
+}
+
+/* Why Words */
+#medwords1 {
+  top: 193%;
+  left: 150%;
+}
+
+#medwords2 {
+  top: 260%;
+  left: 150%;
+}
+
+/* Stimulants */
+#rectangle1 {
+  position: absolute;
+  top: 60%;
+  left: 140%;
+  width: 180%;
+  height: 270%;
+  background: #d1b5b5;
+  z-index: -1;
+}
+
+#rectangle2 {
+  position: absolute;
+  top: 80%;
+  left: 150%;
+  width: 160%;
+  height: 230%;
+  background: #faf0cc;
+  z-index: 10;
+}
+
+#rectangle3 {
+  position: absolute;
+  top: 80%;
+  left: 150%;
+  width: 80%;
+  height: 40%;
+  background: #f0c077;
+  outline-color: black;
+  outline-style: solid;
+  z-index: 25;
+  outline-width: 2px;
+}
+
+.tabs {
+  position: relative;
+  text-align: center;
+  font-size: 33px;
+  top: 25%;
+}
+
+#rectangle4 {
+  position: absolute;
+  top: 80%;
+  left: 230%;
+  width: 80%;
+  height: 40%;
+  background: #f0c077;
+  outline-color: black;
+  outline-style: solid;
+  z-index: 25;
+  outline-width: 2px;
+}
+
+#rectangle3:hover {
+  background: #ea8223;
+}
+
+#rectangle4:hover {
+  background: #ea8223;
+}
+
+.Stimulants {
+  position: absolute;
+  top: 140%;
+  left: 160%;
+  width: 145%;
+  z-index: 30;
+  text-align: left;
+}

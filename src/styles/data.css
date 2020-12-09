@@ -1,0 +1,209 @@
+/* Overall */
+.c-title {
+  font-size: 27px;
+  font-weight: 2600;
+  display: flex;
+  width: 130%;
+  color: #ea8223;
+  justify-content: center;
+}
+
+.c-title:hover {
+  background-color: rgba(232, 255, 183, 0.81);
+}
+
+/* Title */
+.DataSheet {
+  position: absolute;
+  top: 0%;
+  height: 100%;
+}
+
+.title-d h2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  padding: 0 175%;
+  width: 500%;
+  font-size: 40px;
+  font-weight: 3600;
+  color: #7d7b78;
+  z-index: 200;
+}
+
+.rect {
+  position: absolute;
+  top: 3%;
+  left: 168%;
+  height: 3%;
+  width: auto;
+  z-index: -200;
+}
+
+/* Children */
+
+.in-children h2 {
+  position: absolute;
+  top: 10%;
+  left: -25%;
+}
+
+.Child1 {
+  position: absolute;
+  top: 20%;
+  left: -25%;
+}
+
+.Child2 {
+  position: absolute;
+  top: 16.4%;
+  left: 10%;
+}
+
+.Child3 {
+  position: absolute;
+  top: 13.2%;
+  left: 45%;
+}
+
+.Text3 {
+  position: absolute;
+  top: 35%;
+  left: 60%;
+}
+
+/* Male vs. Female */
+.m-and-f h2 {
+  position: absolute;
+  top: 42%;
+  left: -25%;
+}
+
+.Female {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+}
+
+.Male {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+}
+
+.Threex {
+  position: absolute;
+  top: 51%;
+  left: 60%;
+  width: 33%;
+}
+
+/* Household */
+.household h2 {
+  position: absolute;
+  top: 72%;
+  left: -25%;
+}
+
+.House {
+  position: absolute;
+  top: 77%;
+  left: 10%;
+  width: 40%;
+}
+
+.Fourx {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  width: 33%;
+}
+
+/* Child Treatment */
+.children-tmt h2 {
+  position: absolute;
+  top: 10%;
+  left: 125%;
+}
+
+.Hist1 {
+  position: absolute;
+  top: 20%;
+  left: 145%;
+  width: 90%;
+  height: 30%;
+}
+
+/* College Student Treatment */
+.college-tmt h2 {
+  position: absolute;
+  top: 55%;
+  left: 125%;
+}
+
+.Hist2 {
+  position: absolute;
+  top: 66%;
+  left: 145%;
+  width: 90%;
+  height: 30%;
+}
+
+/* Other Disorders */
+.Others h2 {
+  position: absolute;
+  top: 10%;
+  left: 280%;
+}
+
+.Venn {
+  position: absolute;
+  top: 18%;
+  left: 310%;
+  width: 75%;
+}
+
+/* Effects */
+.Effects h2 {
+  position: absolute;
+  top: 55%;
+  left: 280%;
+}
+
+.Money {
+  position: absolute;
+  top: 61%;
+  left: 300%;
+  width: 20%;
+}
+
+.Salary {
+  position: absolute;
+  top: 65%;
+  left: 315%;
+  width: 80%;
+}
+
+.s-num {
+  position: absolute;
+  top: 73%;
+  left: 305%;
+  width: 100%;
+}
+
+.Percent {
+  position: absolute;
+  top: 82%;
+  left: 310%;
+  width: 40%;
+}
+
+.sal-d {
+  position: absolute;
+  top: 81%;
+  left: 353%;
+  width: 60%;
+  text-align: left;
+}

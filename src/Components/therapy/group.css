@@ -1,0 +1,49 @@
+/* Overall */
+.Group {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.g-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  color: rgba(178, 73, 73, 0.87);
+  width: 30rem;
+  left: 40%;
+  top: 30%;
+  font-size: 60px;
+}
+.g-descript {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  top: 150px;
+  width: 60rem;
+  left: 23%;
+
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.g-pic {
+  position: absolute;
+  left: 25%;
+  top: 250%;
+  width: 80%;
+}
+
+.scroll-down-g {
+  position: absolute;
+  left: 65%;
+  top: 500%;
+  width: 8%;
+}
+
+#scroll-g:hover {
+  background-color: #faf0cc;
+}

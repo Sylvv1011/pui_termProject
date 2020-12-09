@@ -1,0 +1,37 @@
+/* Overall */
+.Cbt {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.cbt-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  color: rgba(178, 73, 73, 0.87);
+  width: 60rem;
+  left: 25%;
+  top: 10%;
+  font-size: 60px;
+}
+
+.cbt-descript {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  width: 30rem;
+  left: 180%;
+  top: 55%;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.cbt-pic {
+  position: relative;
+  left: 30%;
+  top: 140px;
+}

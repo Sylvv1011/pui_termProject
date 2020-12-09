@@ -1,0 +1,40 @@
+/* Overall */
+.Overview {
+  position: absolute;
+  left: 0%;
+}
+
+.Over-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  width: 80rem;
+  left: 5%;
+  top: 300%;
+  font-size: 50px;
+  color: rgba(207, 103, 103, 0.83);
+}
+
+.scroll-down {
+  position: absolute;
+  left: 80%;
+  top: 800%;
+  width: 10%;
+}
+
+.Overview img:hover {
+  background-color: #faf0cc;
+}
+
+.Down {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  width: 50rem;
+  left: 2%;
+  top: 600px;
+  font-size: 50px;
+  color: #d1b5b5;
+}
